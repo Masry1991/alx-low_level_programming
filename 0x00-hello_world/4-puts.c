@@ -1,8 +1,13 @@
 #include <stdio.h>
+
 /**
- * main - entry point
- * retun: always 0 (sucess)
- */
+ * main - Entry point
+ *
+ * Description: A C program that prints with puts function
+ *
+ * Return: Always 0 (sucess)
+*/
+
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
