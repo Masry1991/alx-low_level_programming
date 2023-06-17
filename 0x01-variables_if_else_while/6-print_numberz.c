@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-int i;
+int digit;
 while (digit <= 9)
 {
 putchar(digit + '0');
