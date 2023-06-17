@@ -2,17 +2,14 @@
 #include <stdlib.h>
 /**
  * main - Entry point
- * Describtion: program that prints Alpa rev
- * Return: 0 Always (Success)
+ * Describtion: Program to print reversed alphabet
+ * Return: 0 Alwyas (Suceess)
 */
 int main(void)
 {
-char ch = 'z';
-while (ch >= 'a')
-{
-putchar(ch);
-char--;
-}
+char low;
+for (low = 'z'; low >= 'a'; low--)
+putchar(low);
 putchar('\n');
 return (0);
 }
