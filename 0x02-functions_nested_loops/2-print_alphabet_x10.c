@@ -6,11 +6,18 @@
 
 void print_alphabet_x10(void)
 {
-int line, ch;
-for (line = 0; line <= 9; line++)
+char ch;
+int i;
+int i = 0;
+while (i < 10)
 {
-for (ch = 'a'; ch <= 'z'; ch++) 
-_putcar(ch);
+ch = 'a';
+while (ch <= 'z')
+{
+_putchar(ch);
+ch++;
 }
-_putchar('\n');
+_pucthar('\n');
+i++;
+}
 }
