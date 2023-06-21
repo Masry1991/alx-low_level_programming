@@ -21,7 +21,7 @@ _Putchar(',');
 _putchar(' ');
 prod = num * mult;
 if (prod <= 9)
-_putchar('');
+_putchar(' ');
 else
 _putchar((prod / 10) + 48); /*get the first digit*/
 _putchar((prod % 10) + 48); /*get the second digit*/
