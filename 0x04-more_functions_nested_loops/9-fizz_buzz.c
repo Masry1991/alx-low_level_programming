@@ -32,6 +32,6 @@ if (x != 100)
 printf(" ");
 }
 }
-printf('\n');
+printf("\n");
 return (0);
 }
