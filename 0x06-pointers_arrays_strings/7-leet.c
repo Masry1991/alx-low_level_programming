@@ -8,20 +8,18 @@
 
 char *leet(char *c)
 {
-char *cp = c;
-char key[] = {'A', 'E', 'O', 'T', 'L'};
-int value[] = {4, 3, 0, 7, 1};
-unsigned int i;
-while (*c)
+int i, j;
+char s1[] = "aAeEoOtTlL";
+char s2[] = "4433007711";
+for (i = 0; n[i] != '\0'; i++)
 {
-for (i = 0; i < sizeof(key) / sizeof(char); i++)
+for (j = 0; j < 10; j++)
 {
-if (*c == key[i] || *c == key[i] + 32)
+if (n[i] == si[j])
 {
-*c = 48 + vlaue[i];
+n[i] = s2[j];
 }
 }
-c++;
 }
-return (cp);
+return (n);
 }
