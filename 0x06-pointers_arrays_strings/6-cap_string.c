@@ -11,19 +11,19 @@
 char *cap_string(char *s)
 {
 char *ptr = s;
-int founDelimit = 1;
+int foundDelimit = 1;
 while (*s)
 {
 if (isDelimiter(*s))
-founDelmit = 1;
-else if (isLower(*s) && founDelimit)
+foundDelmit = 1;
+else if (isLower(*s) && foundDelimit)
 {
 *s -= 32;
-founDelimit = 0;
+foundDelimit = 0;
 }
 else
 {
-founDelmit = 0;
+foundDelmit = 0;
 s++;
 }
 return (ptr);
